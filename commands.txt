@@ -27,6 +27,11 @@ Error fix
 sudo apt update
 sudo apt install -y gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi build-essential make git
 
+cd ~/qmk_firmware
+qmk compile -kb gabe/cyberdeck -km default
+cp .build/gabe_cyberdeck_default.uf2 /media/$USER/RPI-RP2/
+sync
+
 Build check
 -------------------
 
