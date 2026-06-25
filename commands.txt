@@ -18,3 +18,11 @@ qmk compile -kb gabe/cyberdeck -km default
 ls .build | grep cyberdeck
 
 cp .build/gabe_cyberdeck_default.uf2 /media/gabaman/RPI-RP2/
+
+
+
+Error fix
+-------------------
+
+sudo apt update
+sudo apt install -y gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi build-essential make git
