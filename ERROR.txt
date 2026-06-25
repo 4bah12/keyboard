@@ -1,0 +1,44 @@
+(qmk-venv) gabaman@raspberrypi:~/qmk_firmware $ qmk doctor
+Ψ QMK Doctor is checking your environment.
+Ψ Python version: 3.13.5
+Ψ CLI version: 1.2.0
+Ψ QMK home: /home/gabaman/qmk_firmware
+Ψ Detected Linux (Debian GNU/Linux 13 (trixie)).
+⚠ Missing udev rules for QMK boards. Please run 'util/install_udev.sh' to install the rules
+Ψ Userspace enabled: False
+Ψ Git branch: master
+Ψ Repo version: 0.33.7
+Ψ - Latest master: 2026-06-23 21:30:44 +0100 (0cb6461c6a) -- Bump actions/cache from 5 to 6 (#26293)
+Ψ - Latest upstream/master: 2026-06-23 21:30:44 +0100 (0cb6461c6a) -- Bump actions/cache from 5 to 6 (#26293)
+Ψ - Latest upstream/develop: None
+Ψ - Common ancestor with upstream/master: 2026-06-23 21:30:44 +0100 (0cb6461c6a) -- Bump actions/cache from 5 to 6 (#26293)
+Ψ - Common ancestor with upstream/develop: None
+Ψ CLI installed in virtualenv.
+☒ Can't find arm-none-eabi-gcc in your path.
+☒ Can't find avr-gcc in your path.
+☒ Can't find avrdude in your path.
+☒ Can't find dfu-programmer in your path.
+☒ Can't find dfu-util in your path.
+☒ arm-none-eabi-gcc, avr-gcc, avrdude, dfu-programmer, dfu-util may need to be installed, or their locations added to your path.
+⚠ Unknown version for arm-none-eabi-gcc
+⚠ Unknown version for avr-gcc
+⚠ Unknown version for avrdude
+⚠ Unknown version for dfu-programmer
+⚠ Unknown version for dfu-util
+Ψ Found diff version 3.10
+Ψ Found dos2unix version 7.5.2
+Ψ Found git version 2.47.3
+Ψ Found gmake version 4.4.1
+Ψ Submodules are up to date.
+Ψ Submodule status:
+Ψ - lib/chibios: 2026-04-04 07:15:17 +0000 --  (6170ddf92d)
+Ψ - lib/chibios-contrib: 2026-02-16 12:09:51 +0100 --  (5a9ad82b)
+Ψ - lib/googletest: 2025-02-07 11:04:56 -0500 --  (6910c9d9)
+Ψ - lib/lufa: 2022-08-26 12:09:55 +1000 --  (549b97320)
+Ψ - lib/vusb: 2022-06-13 09:18:17 +1000 --  (819dbc1)
+Ψ - lib/printf: 2022-06-29 23:59:58 +0300 --  (c2e3b4e)
+Ψ - lib/pico-sdk: 2025-04-20 21:24:29 +1000 --  (d0c5cac)
+Ψ - lib/lvgl: 2022-04-11 04:44:53 -0600 --  (e19410f8)
+Ψ Major problems detected, please fix these problems before proceeding.
+Ψ If you're missing dependencies, try following the instructions on: https://docs.qmk.fm/newbs_getting_started
+Ψ Additionally, check out the FAQ (https://docs.qmk.fm/#/faq_build) or join the QMK Discord (https://discord.gg/qmk) for help.
