@@ -13,3 +13,8 @@ mkdir -p keyboards/gabe/cyberdeck/keymaps/default
 nano keyboards/gabe/cyberdeck/keyboard.json
 
 nano keyboards/gabe/cyberdeck/keymaps/default/keymap.c
+
+qmk compile -kb gabe/cyberdeck -km default
+ls .build | grep cyberdeck
+
+cp .build/gabe_cyberdeck_default.uf2 /media/gabaman/RPI-RP2/
