@@ -6,9 +6,10 @@
   "processor": "RP2040",
   "diode_direction": "COL2ROW",
   "matrix_pins": {
-    "rows": ["GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9"],
-    "cols": ["GP11", "GP12", "GP13", "GP14", "GP15", "GP16", "GP17", "GP18", "GP27", "GP28"]
+    "rows": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7"],
+    "cols": ["GP8", "GP9", "GP10", "GP11", "GP12", "GP13", "GP14", "GP15", "GP16", "GP17"]
   },
+  "diode_direction": "ROW2COL"
   "usb": {
     "vid": "0xFEED",
     "pid": "0x6060",
